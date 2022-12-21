@@ -1,0 +1,30 @@
+.searchInputWrapper {
+    width: 100%;
+    background: #5360CD;
+    position: relative;
+}
+
+.searchInput {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    background: #5360CD;
+    padding: 30px 32px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.searchInput::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.cancelBtn {
+    position: absolute;
+    right: 32px;
+    top: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.burgerMenuWrapper {
+    min-width: 236px;
+    position: absolute;
+    top: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 84px);
+    background: #FFFFFF;
+}

@@ -1,0 +1,29 @@
+.mainContainer {
+    background-color: #F3F3F3;
+}
+
+.dark {
+    background-color: #313037;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto 72px;
+    padding-top: 156px;
+    min-height: calc(100vh - 84px);
+}
+
+@media screen and (max-width: 1000px){
+    .wrapper {
+        width: 100% ;
+        padding: 156px 40px 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .wrapper {
+        width: 100%;
+        padding: 156px 24px 0;
+    }
+}

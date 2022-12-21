@@ -1,0 +1,19 @@
+.headerSearchWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.searchBtnWrapper {
+    border-left: 1px solid #5360CD;
+    border-right: 1px solid #5360CD;
+}
+
+.searchBtn {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.headerBurgerWrapper {
+    padding: 34px 32px 36px;
+    border-right: 1px solid #5360CD;
+    cursor: pointer;
+}
+
+.headerBurger {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 14px;
+}
+
+.headerBurger span {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 6px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.headerBurger:before,
+.headerBurger:after{
+    content: "";
+    background-color: #FFFFFF;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.headerBurger:before{
+    top: 0;
+}
+
+.headerBurger:after{
+    bottom: 0;
+}
+
+.active {
+    position: relative;
+    width: 20px;
+    height: 14px;
+}
+
+.active:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #FFFFFF;
+    transform: rotate(45deg);
+    top: 6px;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+.active:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #FFFFFF;
+    transform: rotate(-45deg);
+    bottom: 6px;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+.active span {
+    transform: scale(0);
+    transition: 0.3s ease;
+}

@@ -1,0 +1,28 @@
+.userAvatarWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 17px 30px 19px 32px;
+}
+
+.userAvatar {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    background: #5360CD;
+    border-radius: 2px;
+    color: #FFFFFF;
+    padding: 7px 11px 7px 10px;
+}
+
+.userName {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.defaultAvatar {
+    padding: 30px 32px 26px 30px;
+}

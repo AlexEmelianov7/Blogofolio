@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    gap: 40px;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+}

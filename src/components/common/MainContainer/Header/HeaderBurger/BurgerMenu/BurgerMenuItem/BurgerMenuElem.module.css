@@ -1,0 +1,28 @@
+.burgerMenuElem {
+    list-style-type: none;
+    padding: 29px 0 30px;
+    text-align: center;
+    color: #313037;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.burgerMenuElem:first-child {
+    border-top: 1px solid #E8E8E8;
+}
+
+.primary:hover {
+    color: #2231AA;
+}
+
+.secondary {
+    background: #E8E8E8;
+}
+
+.secondary:hover {
+    background: #DADADA;
+}

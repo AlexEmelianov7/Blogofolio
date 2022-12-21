@@ -1,0 +1,53 @@
+.searchPost {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 39.5px;
+}
+.searchPostElements {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 45.5px;
+}
+.searchPostContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+.date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+    color: #8D8E97;
+}
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #313037;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.title:hover {
+    color: #5360CD;
+}
+
+.img img{
+    display: block;
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.dark {
+    color: #FFFFFF;
+}

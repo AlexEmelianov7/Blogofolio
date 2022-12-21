@@ -1,0 +1,26 @@
+.themeButtons {
+    display: flex;
+    border-top: 1px solid #E8E8E8;
+}
+
+.themeBtn {
+    display: flex;
+    justify-content: center;
+    padding: 28px 0;
+    width: 50%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.themeBtn:not(:last-child) {
+    border-right: 1px solid #E8E8E8;
+}
+
+.svg {
+    fill: #E8E8E8;
+}
+
+.svgActive {
+    fill: #313037;
+}

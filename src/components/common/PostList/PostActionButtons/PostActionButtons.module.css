@@ -1,0 +1,148 @@
+.postActions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #DADADA;
+}
+
+.darkActions {
+    border-bottom: 1px solid  #8D8E97;
+}
+
+.buttonsSide {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.thumbsBtn {
+    display: flex;
+    width: 40px;
+    align-items: center;
+}
+
+.selectedPostActions {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.thumbs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.thumbsUp, .thumbsDown, .bookmarkIcon {
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    background: #E8E8E8;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.thumbsLike {
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    border-radius: 2px;
+    background: #5360CD;
+    color: #F3F3F3;
+}
+
+.thumbsLike .svg,
+.thumbsDislike .svg,
+.favorite .svg {
+    fill: #F3F3F3;
+}
+
+.thumbsDislike {
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    border-radius: 2px;
+    background: #FD3419;
+    color: #F3F3F3;
+}
+
+.bookmark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.bookmarkIcon {
+    gap: 14px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #313037;
+}
+
+.favorite {
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    border-radius: 2px;
+    cursor: pointer;
+    gap: 14px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #F3F3F3;
+    background: #5360CD;
+}
+
+.thumbsUp:hover, .bookmarkIcon:hover {
+    background: #5360CD;
+    color: #F3F3F3;
+    transition: 0.3s;
+}
+
+.thumbsDown:hover {
+    background: #FD3419;
+    color: #F3F3F3;
+    transition: 0.3s;
+}
+
+.thumbsUp:hover .svg,
+.thumbsDown:hover .svg,
+.bookmarkIcon:hover .svg {
+    fill: #F3F3F3;
+    transition: 0.3s;
+}
+
+.svg {
+    transition: 0.3s;
+}
+
+.number {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #313037;
+    padding-left: 8px;
+    margin: 0;
+}
+
+.dots {
+    position: relative;
+    height: 23px;
+    align-items: center;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 33px;
+    right: 0;
+}
+
+.dark {
+    fill: #FFFFFF;
+    color: #FFFFFF;
+}

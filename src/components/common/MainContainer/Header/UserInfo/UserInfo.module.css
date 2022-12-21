@@ -1,0 +1,27 @@
+.userInfoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    white-space: nowrap;
+    background: #2231AA;
+}
+
+.userInfoWrapper a {
+    text-decoration: none;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    white-space: nowrap;
+}
+
+.userName {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    color: #FFFFFF;
+}

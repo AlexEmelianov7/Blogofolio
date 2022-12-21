@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: #2231AA;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.headerRightSide {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 645px) {
+    .headerRightSide {
+        display: none;
+    }
+}

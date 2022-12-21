@@ -1,0 +1,79 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 72px;
+}
+
+.btnContentLeft, .btnContentRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+.btnContentLeft {
+    align-items: flex-start;
+    padding-left: 13px;
+}
+
+.btnContentRight {
+    align-items: flex-end;
+    padding-right: 13px;
+}
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8E97;
+}
+
+.pagination button {
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    transition: 0.3s;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    background: unset;
+    border: unset;
+    transition: 0.3s;
+}
+
+.arrow:hover {
+    color: #2231AA;
+}
+
+.arrow:hover .svg{
+    fill: #2231AA;
+}
+
+.svg {
+    transition: 0.3s;
+}
+
+.arrow:disabled, .arrow:disabled .svg{
+    color: #8D8E97;
+    fill: #8D8E97;
+    cursor: auto;
+}
+
+.arrow:disabled:hover, .arrow:disabled:hover .svg{
+    color: #8D8E97;
+    fill: #8D8E97;
+}
+
+.dark {
+    fill: #FFFFFF;
+    color: #FFFFFF;
+}

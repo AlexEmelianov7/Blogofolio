@@ -1,0 +1,13 @@
+.dropdownMenu {
+    min-width: 259px;
+    min-height: 83px;
+    background: #FFFFFF;
+}
+
+.dropdownElem {
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.dropdownElem:hover {
+    color: #2231AA;
+}
